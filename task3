@@ -1,0 +1,10 @@
+a = float(input())
+b = float(input())
+c = float(input())
+while not((a<c<b) or (a>c>b)):
+	a = float(input())
+	b = float(input())
+	c = float(input())
+b = abs(b-a)
+c = abs(c-a)
+print(b*c)
